@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum vitae Mariana Lopez</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <script src="funciones.js"></script>
+    <!-- INICIO -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-encabezado">
+                    <H1>MARIANA LOPEZ</H1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#habilidades" onclick="seleccionar(this)">HABILIDADES</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+                    <!-- ICONOS INICIO -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="Bienvenida"> Bienvenidos</p>
+                <h2>Soy <span> Mariana Lopez</span>,
+                    Técnica en progrmación</h2>
+                <p class="descripcion-presentacion">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="Boton cv">
+                    <a class="Boton" href="https://www.cvmaker.com.ar/">
+                        Descargar CV
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- SECCION SOBRE MI-->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="Imagenes/modelo-mujer.avif" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, Soy <span>Mariana Lopez</span> </h2>
+            <h3>Tecnica en progrmacion</h3>
+            <p>Tengo 35 años, resido en la localidad de Avellaneda, provincia de Buenos Aires.
+                Me recibí en el año 2020 como técnica en programación, en la Universidad Guillermo Brown.
+                En mi trayectoria profesional, he tenido la oportunidad de trabajar en distintos proyectos de
+                programación,
+                tanto en equipos pequeños como en grandes organizaciones. Me gustaría aplicar mis conocimientos y
+                habilidades en su empresa, y estoy convencida de que puedo aportar valor a su equipo de programadores.
+                Estoy dispuesta a aprender y a desarrollarme profesionalmente, y estoy segura de que puedo contribuir al
+                éxito de su empresa.
+            </p>
+        </div>
+    </section>
+    <!-- SECCION HABILIDADES -->
+    <section id="habilidades">
+
+        <div class="fila">
+            <div class="contenedor-skills" id="skills">
+                <h3>HABILIDADES </h3>
+                <div class="skill">
+                    <div class="info">
+                        <p> <span class="lista"> </span>Html & Css</p>
+                        <span class="porcentaje">95%</span>
+                    </div>
+
+                    <div class="barra">
+                        <div class="" id="html"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="info">
+                        <p> <span class="lista"> </span>Javascript</p>
+                        <span class="porcentaje">90%</span>
+                    </div>
+
+                    <div class="barra">
+                        <div class="" id="js"></div>
+                    </div>
+                </div>
+                <!-- SECCTION CONTACTO -->
+                <section id="contacto">
+                    <h3 class="titulo-seccion">Contactame ahora</h3>
+                    <div class="contenedor-form">
+                        <form action="">
+                            <div class="fila mitad">
+                                <input type="text" placeholder="Nombre Completo *" class="input-mitad">
+                                <input type="email" placeholder="Dirección de Email" class="input-mitad">
+                            </div>
+                            <div class="fila">
+                                <input type="text" placeholder="Empresa" class="input-full">
+                            </div>
+                            <div class="fila">
+                                <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..."
+                                    class="input-full"></textarea>
+                            </div>
+
+                            <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+                        </form>
+                    </div>
+                </section>
+                <footer>
+                    <p>Todos los derechos reservados - 2023</p>
+                </footer>
+
+</body>
+
+</html>
