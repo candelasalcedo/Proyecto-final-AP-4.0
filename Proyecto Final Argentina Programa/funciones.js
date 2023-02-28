@@ -8,7 +8,7 @@ function seleccionar(link) {
     link.className = "seleccionado";
     
     
-    //Hacemos desaparecer el menu una vez que se ha seleccionado una opcion
+    //desaparece el menu una vez que se ha seleccionado una opcion
     //en modo responsive 
     
     var x = document.getElementById("nav");
